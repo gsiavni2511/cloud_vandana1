@@ -1,0 +1,22 @@
+*{
+    margin: 4px;
+    text-align: center;
+    background-color: rgb(69, 233, 233);
+    
+}
+
+h1{
+    margin-top: 50px;
+    border: 10px;
+}
+form{
+    border: 1px;
+}
+.form-control{
+    color: rgb(29, 26, 26);
+    font-size: large;
+    padding-top: 20px;
+}
+#label-role{
+    padding-right: 30px;
+}

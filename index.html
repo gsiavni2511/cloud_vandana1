@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ 
+<head>
+  <meta charset="utf-8">
+  <title>Simple Calculator using HTML, CSS and JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+ <h1> SURVEY FORM</h1>
+
+ <form id="survey-form">
+    <div class="form-control">
+        <label for="name" id="label-name">
+         First Name
+        </label>
+        <input type="text" id="name" placeholder="Enter your name" required />
+    </div>
+    <div class="form-control">
+        <label for="name" id="label-name">
+         Last Name
+        </label>
+        <input type="text" id="name" placeholder="Enter your name" required/>
+    </div>
+    <div class="form-control">
+        <label for="email" id="label-email">
+          Email
+        </label>
+        <input type="email" id="email" placeholder="Enter your email" required/>
+    </div>
+    <div class="form-control">
+        <label for="age" id="label-age">
+            Date of Birth
+    </label>
+    <input type="date" id="age" placeholder="Enter your age" required />
+</div>
+<div class="form-control">
+    <label for="role" id="label-role">
+     country
+    </label>
+    <select name="role" id="role" required>
+      <option value="India">India</option>
+      <option value="us">us</option>
+      <option value="uk">uk</option>
+      <option value="other">Other</option>
+    </select>
+  </div>
+  <div class="form-control">
+    <label id="label-attendance">
+      Gender
+    </label>
+    <label for="attend-1" id="label-attend-1">
+      <input type="radio" id="attend-1" name="attend" required>
+        female
+      </input>
+    </label>
+    <label for="attend-2" id="label-attend-2">
+      <input type="radio" id="attend-2" name="attend" required>
+        male
+      </input>
+    </label>
+    <div class="form-control">
+        <label for="mobile" id="mobile">
+            mobile
+    </label>
+    <input type="tel" id="mobile" placeholder="Enter your number" required />
+</div>
+
+  </div class="form-control">
+  <button type="reset" value="reset" id="reset">
+    Reset
+</button>
+
+<button type="submit" value="submit" id="submit">
+    Submit
+</button>
+</form>
+
+
+</body>
+</html>
